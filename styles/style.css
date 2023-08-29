@@ -1,0 +1,238 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    margin: 0%;
+}
+
+/* navbar */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    background-color: darkgray;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+    justify-content: center;
+     color: #FFF;
+}
+
+/* navbar-end */
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 50px;
+    margin: 130px;
+}
+
+.banner.image-class {
+
+    width: 300px;
+
+}
+
+.head-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.head-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-primary {
+    /* display: inline-flex; */
+    padding: 15px 33px;
+    /* align-items: flex-start; */
+    gap: 10px;
+    border-radius: 5px;
+    background: #E55473;
+    color: #FFF;
+    
+    font-size: medium;
+    outline:none;
+
+}
+.sign-up{
+    border-radius: 5px;
+    background: #E55473;
+    color: #FFF;
+    padding: 15px 33px;
+    align-items: center;
+   
+    margin-left: 180px;
+    
+    font-size: medium;
+
+}
+
+/* banner-end */
+.body-image-section {
+
+    padding: 50px;
+    margin: 130px;
+}
+
+.body-header {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.body-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.image-part {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+
+
+
+}
+
+.first-pic {
+    width: 310px;
+    height: 50px;
+
+}
+
+.section-part {
+    display: flex;
+
+}
+
+
+
+.body-third-section {
+    
+    display: flex;
+    padding: 80px;
+    margin: 130px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05)
+}
+
+.body-third-header {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.body-third-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.body-third-image {
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
+}
+
+/* instagram-part */
+.card-part {
+    padding: 10px;
+    margin: 100px;
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+
+}
+
+.about-card {
+    box-sizing: content-box;
+    box-shadow: #FD6E0A;
+    padding: auto;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.grt-image {
+    width: 250px;
+    height: 300px;
+}
+
+/* input-part */
+.input-text {
+    width: 500px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.main-last-part {
+    background-image:url(/Flower\ Asset/);
+    padding: 20px;
+    margin: 80px;
+  
+}
+/* footer-part */
+.footer-part{
+    background-color: #181818;
+    width: 100%;
+    padding: 20px;
+    margin: 80px;
+
+}
+.footer-header{
+    color: #E55473;
+font-family: Lato;
+font-size: 48px;
+
+
+text-align: center;
+
+}
+.image-class{
+    background-position: bottom right;
+}
+.footer-paragraph{
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+.last-part{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+
+font-weight: 400;
+}
+.overall-input{
+    padding-bottom: 50px;
+}
